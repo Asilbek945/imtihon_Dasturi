@@ -1,16 +1,37 @@
 import React from 'react'
 import rasm1 from './firdavs.jpg'
+import logo from './logo.png'
+
 import './Firdavs.css'
 const Firdavs = () => {
     return (
         <div>
+            <div className="navbar">
+                <div className="navbar1">
 
-            <ul>
-                <li><span>Home</span> | <span>News</span></li>
-            </ul>
-            <center>
+                <img className='img' src={logo} alt="" />
+                </div>
+                <div className="navbar2">
+                    
+                <ul>
+                    <li>
+                        <a href="/">menu</a>
+                        <a href="Firdavs.jsx">news</a>
+                        <a href="Umar.jsx">about us</a>
+                        <a href="Jasurbek">contact us</a>
+                            <button>Log in</button> 
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div className="tepa1">
+
+                <ul className='ul'>
+                    <li className='li' >Home | <span>News</span></li>
+                </ul>
                 <h1>News</h1>
-            </center>
+            </div>
+
 
 
             <div className="asos">

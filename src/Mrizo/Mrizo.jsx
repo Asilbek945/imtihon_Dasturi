@@ -1,5 +1,6 @@
 import React from 'react'
 import './Mrizo.css'
+import rasm1 from "./rasm.jpg"
 const Mrizo = () => {
     return (
         <div className='site'>
@@ -14,36 +15,39 @@ const Mrizo = () => {
                     <i class="fa-regular fa-calendar"></i><p>06/02/2022</p> <i class="fa-regular fa-clock"></i> <p>11:15</p> <i class="fa-regular fa-eye"></i> <p>222</p>
                 </div>
             </div>
-            <div className="card">
-                        <img src={rasm1} alt="" />
-                        <h2 className='v1'>Tips for prepping and caring for your grill</h2>
-                        <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                        <div className="card1">
+            <div className="ota">
+
+                <div className="card">
+                    <img src={rasm1} alt="" />
+                    <h2 className='v1'>Tips for prepping and caring for your grill</h2>
+                    <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <div className="card1">
 
                         <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
-                        </div>
                     </div>
-                    <div className="card">
-                        <img src={rasm1} alt="" />
-                        <h2 className='v1'>Tips for prepping and caring for your grill</h2>
-                        <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                        <div className="card1">
+                </div>
+                <div className="card">
+                    <img src={rasm1} alt="" />
+                    <h2 className='v1'>Tips for prepping and caring for your grill</h2>
+                    <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <div className="card1">
 
                         <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
-                        </div>
                     </div>
-                    <div className="card">
-                        <img src={rasm1} alt="" />
-                        <h2 className='v1'>Tips for prepping and caring for your grill</h2>
-                        <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                        <div className="card1">
+                </div>
+                <div className="card">
+                    <img src={rasm1} alt="" />
+                    <h2 className='v1'>Tips for prepping and caring for your grill</h2>
+                    <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <div className="card1">
 
                         <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
-                        </div>
                     </div>
+                </div>
+            </div>
         </div>
     )
 }

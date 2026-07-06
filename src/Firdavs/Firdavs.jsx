@@ -19,18 +19,18 @@ const Firdavs = () => {
 
             <div className="asos">
 
-                <div className="card">
-                    <img src={rasm1} alt="" />
+                <div className="card12">
+                    <img className='s1' src={rasm1} alt="" />
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                        {/* <div className="card1">
+                        <div className="card1">
 
                             <p className='v3'>Read More</p>
                             <p className='v4'>16 Apr 2021</p>
-                        </div>   */}
+                        </div>  
                 </div>
-                {/* <div className="card">
-                    <img src={rasm1} alt="" />
+                <div className="card12">
+                    <img className='s1' src={rasm1} alt="" />
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                     <div className="card1">
@@ -38,8 +38,9 @@ const Firdavs = () => {
                         <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
                     </div>
-                </div>                <div className="card">
-                    <img src={rasm1} alt="" />
+                </div>                <div className="card12">
+                    <img className='s1' src={rasm1} alt="" />
+                   
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                     <div className="card1">
@@ -47,8 +48,9 @@ const Firdavs = () => {
                         <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
                     </div>
-                </div>                <div className="card">
-                    <img src={rasm1} alt="" />
+                </div>                <div className="card12">
+                    <img className='s1' src={rasm1} alt="" />
+
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                     <div className="card1">
@@ -56,16 +58,17 @@ const Firdavs = () => {
                         <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
                     </div>
-                </div>                <div className="card">
-                    <img src={rasm1} alt="" />
+                </div>                <div className="card12">
+                    <img className='s1' src={rasm1} alt="" />
+
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                     <div className="card1">
                         [06.07.2026 16:20] فاطمة: <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
                     </div>
-                </div>                <div className="card">
-                    <img src={rasm1} alt="" />
+                </div>                <div className="card12">
+                    <img className='s1' src={rasm1} alt="" />
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                     <div className="card1">
@@ -73,8 +76,8 @@ const Firdavs = () => {
                         <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
                     </div>
-                </div>                <div className="card">
-                    <img src={rasm1} alt="" />
+                </div>                <div className="card12">
+                    <img className='s1' src={rasm1} alt="" />
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                     <div className="card1">
@@ -82,8 +85,8 @@ const Firdavs = () => {
                         <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
                     </div>
-                </div>                <div className="card">
-                    <img src={rasm1} alt="" />
+                </div>                <div className="card12">
+                    <img className='s1' src={rasm1} alt="" />
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                     <div className="card1">
@@ -91,8 +94,8 @@ const Firdavs = () => {
                         <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
                     </div>
-                </div>                <div className="card">
-                    <img src={rasm1} alt="" />
+                </div>                <div className="card12">
+                    <img className='s1' src={rasm1} alt="" />
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                     <div className="card1">
@@ -100,9 +103,9 @@ const Firdavs = () => {
                         <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
                     </div>
-                </div> */}
+                </div>
 
-                {/* <div className="btn">view more</div> */}
+                <div className="btn">view more</div>
 
             </div>
 

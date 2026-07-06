@@ -116,7 +116,7 @@ h1 {
 
 }
 
-.card {
+.card12 {
     width: 413px;
     height: 584px;
     border: 2px solid grey;
@@ -125,7 +125,7 @@ h1 {
     margin: 10px;
 }
 
-/* .card img {
+.card12 .s1 {
     width: 410px;
     height: 352px;
     border-top-left-radius: 16px;
@@ -170,7 +170,7 @@ h1 {
     margin: 20px;
     color: grey;
     font-size: 18px;
-} */
+}
 
 
 .btn {
@@ -190,7 +190,7 @@ h1 {
 
 
 .footer {
-    width: 1000px;
+    width: 1920px;
     height: 300px;
     background: #BB2339;
     margin: auto;

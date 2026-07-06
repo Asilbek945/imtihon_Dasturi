@@ -132,6 +132,7 @@ h1 {
     border-top-right-radius: 16px;
 
 }
+        }
 
 .v1 {
     width: 372px;
@@ -156,13 +157,19 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
-
+.w2
+{
+        font-family: 'Cera Round Pro Light', sans-serif;
+font-weight: 300;
+}
 .v3 {
     width: 90px;
     margin: 20px;
     float: left;
     font-size: 18px;
     color: #BB2339;
+
+                                                
 }
 
 .v4 {
@@ -189,133 +196,135 @@ h1 {
 
 
 
-.footer {
-    width: 1920px;
-    height: 300px;
-    background: #BB2339;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 20px;
-    z-index: 1;
-    position: relative;
+    .footer11 {
+        width: 1330px;
+        height: 300px;
+        background: #BB2339;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 20px;
+        z-index: 1;
+        position: relative;
 
-}
+    }
 
-.shriftlar {
-    width: 1000px;
-    height: 150px;
+    .shriftlar {
+        margin-left: 160px;
+        width: 1000px;
+        height: 150px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-.shriftlar h2 {
-    color: white;
-}
+    .shriftlar h2 {
+        color: white;
+    }
 
-.shriftlar h1 {
-    color: white;
-    font-size: 40px;
-}
+    .shriftlar h1 {
+        color: white;
+        font-size: 40px;
+    }
 
-.shriftlar p {
-    color: white;
-}
+    .shriftlar p {
+        color: white;
+    }
 
-.inpbtn {
-    width: 1000px;
-    height: 150px;
+    .inpbtn {
+        width: 1000px;
+        height: 150px;
+        margin-left: 170px;
 
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
 
-}
-
-
-.inpbtn input {
-    width: 450px;
-    height: 50px;
-    border-radius: 30px;
-    border: 1px solid white;
-    background: #BB2339;
-    color: white;
-    padding-left: 30px;
-}
-
-.inpbtn button {
-    width: 120px;
-    height: 50px;
-    border-radius: 30px;
-    border: 2px solid white;
-    background: #BB2339;
-    color: gray;
-    padding-left: 30px;
-    color: white;
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-    padding-right: 20px;
-}
+    }
 
 
-.footer2 {
-    width: 100%;
-    height: 500px;
-    background: #BB2339;
-    margin-top: -160px;
-    z-index: -1;
-    padding-top: 100px;
+    .inpbtn input {
+        width: 450px;
+        height: 50px;
+        border-radius: 30px;
+        border: 1px solid white;
+        background: #BB2339;
+        color: white;
+        padding-left: 30px;
+    }
 
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    .inpbtn button {
+        width: 120px;
+        height: 50px;
+        border-radius: 30px;
+        border: 2px solid white;
+        background: #BB2339;
+        color: gray;
+        padding-left: 30px;
+        color: white;
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+    }
 
 
-}
+    .footer21 {
+        width: 1920px;
+        height: 500px;
+        background: #BB2339;
+        margin-top: -160px;
+        z-index: -1;
+        padding-top: 100px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
 
 
-.a1 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    }
 
-    width: 300px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* background: #000; */
-}
 
-.a2 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    .a1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
 
-    width: 400px;
-    height: 150px;
+        width: 300px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background: #000; */
+    }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+    .a2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
 
-.a3 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        height: 150px;
 
-    width: 400px;
-    height: 150px;
-    font-weight: 200;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+    .a3 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+        width: 400px;
+        height: 150px;
+        font-weight: 200;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }

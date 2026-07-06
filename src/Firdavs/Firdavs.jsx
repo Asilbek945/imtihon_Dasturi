@@ -12,7 +12,7 @@ const Firdavs = () => {
                 <ul className='ul'>
                     <li className='li' >Home | <span>News</span></li>
                 </ul>
-                <h1>News</h1>
+                <h1  >News</h1>
             </div>
 
 
@@ -114,7 +114,7 @@ const Firdavs = () => {
 
 
 
-            <div className="footer">
+            <div className="footer11">
 
                 <div className="shriftlar">
 
@@ -141,7 +141,7 @@ const Firdavs = () => {
 
 
 
-            <div className="footer2">
+            <div className="footer21">
                 <div className="a1">
                     <h2>Contact Us</h2>
                     <br />

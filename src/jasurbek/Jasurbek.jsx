@@ -13,7 +13,7 @@ const jasurbek = () => {
                 <ul className='ul'>
                     <li className='li' >Home | <span>Contact Us</span></li>
                 </ul>
-                <h1>Contact Us</h1>
+                <h1 className='w1' >Contact Us</h1>
             </div>
 
             <div className="contact">
@@ -83,44 +83,52 @@ const jasurbek = () => {
                     <button>Send message</button>
                 </div>
             </div>
-<center>
+            <center>
 
-<h6>Find Us By Card</h6>
-</center>
-<center>
-<section className="map-section">
-      <iframe
-        title="Tashkent Map"
-        src="https://maps.google.com/maps?q=Tashkent,%20Uzbekistan&t=&z=11&ie=UTF8&iwloc=&output=embed"
-        width="100%"
-        height="450"
-        style={{ border: 0 }}
-        loading="lazy"
-        allowFullScreen
-      ></iframe>
-    </section>
+                <h6>Find Us By Card</h6>
+            </center>
+            <center>
+                <section className="map-section">
+                    <iframe
+                        title="Tashkent Map"
+                        src="https://maps.google.com/maps?q=Tashkent,%20Uzbekistan&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                        width="100%"
+                        height="450"
+                        style={{ border: 0 }}
+                        loading="lazy"
+                        allowFullScreen
+                    ></iframe>
+                </section>
 
-</center>
-            <div className="footer">
+            </center>
+            <div className="footer11">
 
                 <div className="shriftlar">
 
-                <h2>Newsletter</h2>
+                    <h2>Newsletter</h2>
 
-                <h1>Subscribe to Our Newsletter</h1>
+                    <h1>Subscribe to Our Newsletter</h1>
 
-                <p>And never miss latest Updates!</p>
+                    <p>And never miss latest Updates!</p>
 
                 </div>
 
                 <div className="inpbtn">
 
-                <input type="text" placeholder='Email Address'/>
+                    <input type="text" placeholder='Email Address' />
 
-                <button>Subscribe</button>
+                    <button>Subscribe</button>
                 </div>
             </div>
-<div className="footer2">
+
+
+
+            {/* foteer1 */}
+
+
+
+
+            <div className="footer21">
                 <div className="a1">
                     <h2>Contact Us</h2>
                     <br />
@@ -135,9 +143,9 @@ const jasurbek = () => {
                     <p>"The best way to find yourself is to lose yourself in the service of others.”</p>
                     <br />
                     <div className="i">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
                     </div>
                 </div>
 

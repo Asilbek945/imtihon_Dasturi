@@ -72,14 +72,18 @@
 }
 
 .navbar button:hover {
-    background-color: red;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.344);
+    background-color:#BB2339;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.344);
     color: #fff;
-    transform: translateY(-7px);
+    transform: translateY(-3px);
+}
+.navbar a:hover {
+    color: #fff;
+    transform: translateY(-3px);
 }
 
 .navbar button:active {
-    transform: translateY(-1px);
+    transform: translateY(-4px);
 }
 
 

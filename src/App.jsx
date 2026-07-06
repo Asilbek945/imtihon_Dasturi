@@ -12,6 +12,7 @@ import Samandar from './Samandar/Samandar'
 
 const App = () => {
   return (
+
     <BrowserRouter>
     <div>
         <div className="Menu">
@@ -45,8 +46,12 @@ const App = () => {
                 <Route path='Samandar' element={<Samandar />}/>
             </Routes>
         </div>
+      <div>
+    
 
+      <Firdavs />
     </div>
+    </BrowserRouter>
     {/* <Abdurahmon />
     <Mrizo />
     <Asilbek />
@@ -55,7 +60,6 @@ const App = () => {
     <Umar /> */}
     {/* <Samandar /> */}
 
-    </BrowserRouter>
   )
 }
 

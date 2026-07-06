@@ -1,25 +1,30 @@
 import React from 'react'
-import './Asilbek/Asilbek.css'
+// import './Asilbek/Asilbek.css'
 import logo from './logo.png'
-import { BrowserRouter, Route, Router } from 'react-router-dom'
+import { BrowserRouter, Link, Route, Router, Routes } from 'react-router-dom'
 import Firdavs from './Firdavs/Firdavs'
 import Mrizo from './Mrizo/Mrizo'
+import Asilbek from './Asilbek/Asilbek'
+import Umar from './Umar/Umar'
+import Abdurahmon from './Abdurahmon/Abdurahmon'
+import Jasurbek from './Jasurbek/Jasurbek'
+import Samandar from './Samandar/Samandar'
 
-const Asilbek = () => {
+const App = () => {
   return (
     <BrowserRouter>
     <div>
-<<<<<<< HEAD
         <div className="Menu">
             <div className="navbar">
                 <img src={logo} alt="" />
                 <ul>
                     <li>
-                        <a href="">menu</a>
+                        <Link to="abdurahmon">Home</Link>
+                        <Link href="/">menu</Link>
                         <Link to="firdavs">news</Link>
-                        <Link to="Umar">about us</Link>
-                        <Link to="Jasurbek">contact us</Link>
-                        <Link to="Samandar"> <button>Log in</button> </Link>
+                        <Link to="umar">about us</Link>
+                        <Link to="jasurbek">contact us</Link>
+                        <Link to="samandar"> <button>Log in</button> </Link>
                     </li>
                 </ul>
             </div>
@@ -30,20 +35,28 @@ const Asilbek = () => {
                     <p>Menu</p>
                 </div>
             </div>
-            <Router>
+            <Routes>
+                <Route path='abdurahmon' element={<Abdurahmon />}/>
+                <Route path='abdurahmon' element={<Mrizo />}/>
+                <Route path='/' element={<Asilbek />}/>
                 <Route path='firdavs' element={<Firdavs />}/>
-                <Route path='Mrizo' element={<Mrizo />}/>
-            </Router>
+                <Route path='jasurbek' element={<Jasurbek />}/>
+                <Route path='umar' element={<Umar />}/>
+                <Route path='Samandar' element={<Samandar />}/>
+            </Routes>
         </div>
 
-=======
-      <Firdavs />
->>>>>>> 48d3734aa996f48d76703fa73ac2f1703be11811
     </div>
-
+    {/* <Abdurahmon />
+    <Mrizo />
+    <Asilbek />
+    <Firdavs />
+    <Jasurbek />
+    <Umar /> */}
+    {/* <Samandar /> */}
 
     </BrowserRouter>
   )
 }
 
-export default Asilbek
+export default App

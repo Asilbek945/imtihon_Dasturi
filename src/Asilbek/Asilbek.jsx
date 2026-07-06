@@ -7,18 +7,17 @@ import Mrizo from '../Mrizo/Mrizo'
 
 const Asilbek = () => {
   return (
-    <BrowserRouter>
     <div>
         <div className="Menu">
             <div className="navbar">
                 <img src={logo} alt="" />
                 <ul>
                     <li>
-                        <Link to="">menu</Link>
-                        <Link to="Firdavs.jsx">news</Link>
-                        <Link to="Umar.jsx">about us</Link>
-                        <Link to="Jasurbek.jsx">contact us</Link>
-                        <Link to="Samandar.jsx"> <button>Log in</button> </Link>
+                        <a href="/">menu</a>
+                        <a href="Firdavs.jsx">news</a>
+                        <a href="Umar.jsx">about us</a>
+                        <a href="Jasurbek.jsx">contact us</a>
+                        <a href="Samandar.jsx"> <button>Log in</button> </a>
                     </li>
                 </ul>
             </div>
@@ -29,17 +28,11 @@ const Asilbek = () => {
                     <p>Menu</p>
                 </div>
             </div>
-            <Router>
-                <Route path='/' element={<Asilbek />}/>
-                <Route path='Firdavs.jsx' element={<Firdavs />}/>
-                <Route path='Mrizo' element={<Mrizo />}/>
-            </Router>
         </div>
 
     </div>
 
 
-    </BrowserRouter>
   )
 }
 

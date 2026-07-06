@@ -124,6 +124,68 @@ const Firdavs = () => {
 
             </div>
 
+
+{/* cbufvoecdldnv */}
+
+
+
+            <div className="footer">
+
+                <div className="shriftlar">
+
+                <h2>Newsletter</h2>
+
+                <h1>Subscribe to Our Newsletter</h1>
+
+                <p>And never miss latest Updates!</p>
+
+                </div>
+
+                <div className="inpbtn">
+
+                <input type="text" placeholder='Email Address'/>
+
+                <button>Subscribe</button>
+                </div>
+            </div>
+
+
+
+            {/* foteer1 */}
+
+
+
+
+            <div className="footer2">
+                <div className="a1">
+                    <h2>Contact Us</h2>
+                    <br />
+                    <p>9 W 53rd St, London, NY 10019, UK</p>
+                    <br />
+                    <p>+1 212-344-1230 <br /> +1 212-555-1230</p>
+                </div>
+
+                <div className="a2">
+                    <img src={logo} alt="" />
+                    <br />
+                    <p>"The best way to find yourself is to lose yourself in the service of others.”</p>
+                    <br />
+                    <div className="i">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+
+                <div className="a3">
+                    <h2>Working Hours</h2>
+                    <br />
+                    <p>Monday-Friday: <br /> 08:00 am -12:00 am</p>
+                    <br />
+                    <p>Saturday-Sunday: <br /> 07:00am -11:00 pm</p>
+                </div>
+            </div>
+
         </div>
 
     )

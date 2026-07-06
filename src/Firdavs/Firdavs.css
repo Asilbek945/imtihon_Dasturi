@@ -194,13 +194,139 @@ border-top-right-radius:16px;
 
 
 
+.footer{
+    width: 1000px;
+    height: 300px;
+    background: #BB2339;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+    z-index: 1;
+    position: relative;
+    
+}
+
+.shriftlar{
+    width: 1000px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shriftlar h2{
+    color: white;
+}
+
+.shriftlar h1{
+    color: white;
+    font-size: 40px;
+}
+
+.shriftlar p{
+    color: white;
+}
+
+.inpbtn{
+    width: 1000px;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
 
 
+.inpbtn input
+{
+    width: 450px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background: #BB2339;
+    color: white;
+    padding-left: 30px;
+}
+
+.inpbtn button{
+    width: 120px;
+    height: 50px;
+     border-radius: 30px;
+    border: 2px solid white;
+    background: #BB2339;
+    color: gray;
+    padding-left: 30px;
+    color: white;
+
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
 
 
+.footer2{
+    width: 100%;
+    height: 500px;
+    background: #BB2339;
+    margin-top: -160px;
+    z-index: -1;
+    padding-top: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
 
+}
 
+
+.a1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: #000; */
+}
+
+.a2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 400px;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.a3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 400px;
+    height: 150px;
+    font-weight: 200;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 

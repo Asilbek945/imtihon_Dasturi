@@ -1,16 +1,16 @@
 import React from 'react'
 import './Asilbek/Asilbek.css'
 import logo from './logo.png'
-import { BrowserRouter, Route, Router } from 'react-router-dom'
+import { BrowserRouter, Link, Route, Router, Routes } from 'react-router-dom'
 import Firdavs from './Firdavs/Firdavs'
 import Mrizo from './Mrizo/Mrizo'
+import Jasurbek from './jasurbek/Jasurbek'
 
 const Asilbek = () => {
   return (
-    <BrowserRouter>
-    <div>
-<<<<<<< HEAD
-        <div className="Menu">
+        <BrowserRouter>
+      <div>
+        {/* <div className="Menu">
             <div className="navbar">
                 <img src={logo} alt="" />
                 <ul>
@@ -30,19 +30,17 @@ const Asilbek = () => {
                     <p>Menu</p>
                 </div>
             </div>
-            <Router>
+            <Routes>
                 <Route path='firdavs' element={<Firdavs />}/>
                 <Route path='Mrizo' element={<Mrizo />}/>
-            </Router>
-        </div>
+            </Routes>
+        </div> */}
 
-=======
-      <Firdavs />
->>>>>>> 48d3734aa996f48d76703fa73ac2f1703be11811
     </div>
-
-
+      <Jasurbek />
     </BrowserRouter>
+
+
   )
 }
 

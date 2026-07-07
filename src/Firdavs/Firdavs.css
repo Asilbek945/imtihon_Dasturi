@@ -80,7 +80,7 @@
 
 .ul {
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 0px;
     list-style: none;
 }
 
@@ -88,7 +88,7 @@
     text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
-    margin-left: -100px;
+    margin-left: -940px;
 }
 
 .ul .li span {

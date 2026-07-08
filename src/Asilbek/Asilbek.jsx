@@ -13,9 +13,11 @@ const Asilbek = () => {
         <div>
             <div className="Menu">
 
-                <ul className='ul'>
-                    <li className='li' >Home | <span>News</span></li>
-                </ul>
+                <div className="h">
+                    <h1>Home</h1>
+                    <h1>|</h1>
+                    <h1 className='h111'>News</h1>
+                </div>
 
                 <div className="chap11">
                     <h1>Our Regular Menu</h1>

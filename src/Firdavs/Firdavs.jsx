@@ -23,11 +23,11 @@ const Firdavs = () => {
                     <img className='s1' src={rasm1} alt="" />
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                        <div className="card1">
+                    <div className="card1">
 
-                            <p className='v3'>Read More</p>
-                            <p className='v4'>16 Apr 2021</p>
-                        </div>  
+                        <p className='v3'>Read More</p>
+                        <p className='v4'>16 Apr 2021</p>
+                    </div>
                 </div>
                 <div className="card12">
                     <img className='s1' src={rasm1} alt="" />
@@ -40,7 +40,7 @@ const Firdavs = () => {
                     </div>
                 </div>                <div className="card12">
                     <img className='s1' src={rasm1} alt="" />
-                   
+
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                     <div className="card1">
@@ -156,9 +156,9 @@ const Firdavs = () => {
                     <p>"The best way to find yourself is to lose yourself in the service of others.”</p>
                     <br />
                     <div className="i">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.facebook.com/reg/?entry_point=login&next="><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/accounts/emailsignup/?next="><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
 

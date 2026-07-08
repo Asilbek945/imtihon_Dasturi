@@ -64,7 +64,7 @@ const Firdavs = () => {
                     <h2 className='v1'>Tips for prepping and caring for your grill</h2>
                     <p className='v2' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
                     <div className="card1">
-                        [06.07.2026 16:20] فاطمة: <p className='v3'>Read More</p>
+                        <p className='v3'>Read More</p>
                         <p className='v4'>16 Apr 2021</p>
                     </div>
                 </div>                <div className="card12">

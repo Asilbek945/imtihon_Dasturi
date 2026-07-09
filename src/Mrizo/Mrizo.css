@@ -177,7 +177,7 @@ p {
 
 .kard_nomi {
   font-size: 14px;
-  color: #333;
+  
   margin-bottom: 10px;
 }
 
@@ -246,42 +246,149 @@ p {
 /* mrizo */
 
 .site {
-  width: auto;
-  max-width: 2000px;
+  width: 1920px;
   height: auto;
   background-color: #F4F4F4;
-  border: 1px solid;
   margin: 50px auto;
 }
 
-.orta {
+.orta11 {
   width: 1920px;
   height: 645px;
   background-color: #F4F4F4;
-  border: 1px solid;
   margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+.orta12 {
+  width: 1920px;
+  height: 100px;
+  margin-top: 130px;
+  margin-bottom: 70px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+float: left;
+  border: none;
+
 }
 
+.t1{
+width: 120px;
+height: 30px;
+font-size: 23px;
+}
+.t2
+{
+width: 418;
+height: 62;
+
+font-size: 48px;
+}
 .ota {
   width: 1920px;
   height: 800px;
   border: 2px solid;
 }
 
-h1 {
-  font-weight: 300;
-  font-family: Arial, Helvetica, sans-serif;
+
+.ot1 {
+  margin-right: 150px ;
+  margin-top: 35px; 
+  display: flex;
+  justify-content: center;
+  border: none;
+
+  color: #333333;
 }
 
-.box {
+  h1 {
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  .box99 {
+  width: 1900px;
+  height: 198px;
+  color: #333333;
+  float: left;
+  display: flex;
+  justify-content: center;
+  border: none;
+  flex-wrap: wrap;
+
+}
+p{
+color: #333333;}
+.boxtagi
+{
+   width: 1900px;
+  height: 198px; 
+  display: flex;
+  justify-content: center;
+  border: none;
+  align-items: center;
+}
+.ew1
+{
+  width: 340px;
+  height: 66px;
+  color: #333333;
+
+}
+.box12 {
   width: 410px;
   height: 198px;
-
-  border: 1px solid;
+  height: 198px;
+  margin-left: 20px;
+  margin-right:20px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  padding-top: 20px;
+  padding: 20px;
+  color: #333333;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  
 }
+p{
+  
+}
+.box12 h1 {
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  margin-left: 0;
+  line-height: 26px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+/* */
+.asos1 {
+    width: 1400px;
+    height: 584px;
+    /* background-color: yellow; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 240px;
 
+}
+.kattarasm{
+  width: 1920px;
+  height: 763px;
 
-
+}
+.kattarasm1{
+  width: 1920px;
+  height: 763px;
+  
+}
 .card {
   width: 413px;
   height: 584px;

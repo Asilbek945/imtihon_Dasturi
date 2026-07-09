@@ -1,8 +1,6 @@
 import React from 'react'
 import './Mrizo.css'
 import logo from './logo.png'
-import katta from './kattarasm.jpg'
-
 import img2 from './r1.jpg'
 import img1 from './img.jpg'
 import rasm111 from './abdurahmon1.png'
@@ -274,14 +272,7 @@ const Mrizo = () => {
                                   </div>
                               </div>   
 </div>
-<br /><br /><br /><br /><br /><br /><br /><br />
-<center>
 
-<div className="kattarasm">
-  <img className="kattarasm1" src={katta} alt="" />
-</div>
-</center>
-<br /><br />
                 <div className="orta">
                     <div className="orta_p">
                         <div className="pass">
@@ -299,10 +290,6 @@ const Mrizo = () => {
                         </div>
                     </div>
                 </div>
-<br /><br /><br />
-
-
-<br /><br /><br />
                                
         {/* <div className="ota">
 

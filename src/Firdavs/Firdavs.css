@@ -79,8 +79,7 @@
 }
 
 .ul {
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 10px;
     list-style: none;
 }
 
@@ -88,7 +87,7 @@
     text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
-    margin-left: -100px;
+    margin-left: -940px;
 }
 
 .ul .li span {
@@ -166,17 +165,17 @@ font-weight: 300;
     width: 90px;
     margin: 20px;
     float: left;
-    font-size: 18px;
+    font-size: 15px;
     color: #BB2339;
 
                                                 
 }
 
 .v4 {
-    width: 79px;
+    width: 90px;
     margin: 20px;
     color: grey;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 
@@ -184,6 +183,21 @@ font-weight: 300;
     width: 150px;
     height: 50px;
     border: 2px solid #BB2339;
+    background: transparent;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.btn:hover {
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(18, 16, 16);
+    background-color: #BB2339;
     background: transparent;
     border-radius: 30px;
     display: flex;

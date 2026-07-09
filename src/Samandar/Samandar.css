@@ -1,0 +1,128 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.login{
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    /* border: 3px solid black; */
+
+}
+
+.login .h6{
+    color: black;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    margin-left: -100px;
+    /* margin-top: -50px; */
+}
+
+.login .form1{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: -75px;
+}
+
+.form1 .in1{
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    margin-top: 50px;
+    text-indent: 10px;
+    text-transform: capitalize;
+    border-radius: 6px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.form1 .in2{
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    /* margin-top: 50px; */
+    text-indent: 10px;
+    text-transform: capitalize;
+    border-radius: 6px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.form1 button{
+    text-transform: capitalize;
+    background-color: #BB2339;
+}
+
+
+.form1 .tugma2{
+    width: 100%;
+    /* margin-left: -50px; */
+    padding: 10px;
+    height: 40px;
+}
+.form1 .tugma3{
+    width: 120%;
+    margin-left: -10px;
+    padding: 0px;
+    height: 40px;
+    
+}
+
+
+/* From Uiverse.io by CristianMontoya98 */ 
+.tugma1 {
+ width: 200px;
+ height: 2.5em;
+ margin: 0.5em;
+ /* border-radius: 100px; */
+ background:  #BB2339;
+ color: white;
+ border: none;
+ border-radius: 30px;
+ font-size: 20px;
+ font-weight: bold;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+ overflow: hidden;
+}
+
+.tugma1:hover {
+ color:  #BB2339;
+}
+
+.tugma1:after {
+ content: "";
+ background: white;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+
+.tugma1:hover:after {
+ transform: skewX(-45deg) scale(1, 1);
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+}

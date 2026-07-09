@@ -143,9 +143,9 @@ const jasurbek = () => {
                     <p>"The best way to find yourself is to lose yourself in the service of others.”</p>
                     <br />
                     <div className="i">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.facebook.com/reg/?entry_point=login&next="><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/accounts/emailsignup/?next="><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
 

@@ -1,102 +1,107 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar7 {
-    width: 1879px;
-height: 721px;
-    background-color: #BB2339;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-        margin-left: 1px;
+  width: 1880px;
+  height: 721px;
+  background-color: #BB2339;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
 }
 
 .dada7 {
-    width: 90%;
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    gap: 50px;
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 }
 
 .matnlar7 {
-    flex: 1; 
-    max-width: 500px;
+  flex: 1;
+  max-width: 500px;
 }
 
 .rasmuchun {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end; 
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .rasm7 {
-    width: 100%;
-    max-width: 600px; 
+  width: 100%;
+  max-width: 600px;
 }
 
 .a {
-    font-size: 20px;
-    color: aliceblue;
-    margin-bottom: 30px;
+  font-size: 20px;
+  color: aliceblue;
+  margin-bottom: 30px;
 }
 
 .b {
-    color: aliceblue;
-    font-size: 60px;
-    line-height: 1.2;
-    margin-bottom: 30px;
+  color: aliceblue;
+  font-size: 60px;
+  line-height: 1.2;
+  margin-bottom: 30px;
 }
 
 .button {
-    padding: 10px 25px;
-    border-radius: 20px;
-    cursor: pointer;
-    border: none;
-    margin-bottom: 20px;
-    background-color: antiquewhite;
-    color: black;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+  color: black;
 }
 
-p{
-    color: aliceblue;
+p {
+  color: aliceblue;
 }
-.header7{
+
+.header7 {
   width: 1879px;
-height: 721px;
-    background-color:#F8F8F8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 721px;
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 
 }
-.c{
-color: #BB2339;
-font-size: 45px;
-margin-right: 1200px;
-margin-bottom: 500px;
+
+.c {
+  color: #BB2339;
+  font-size: 45px;
+  margin-right: 1200px;
+  margin-bottom: 500px;
 }
-.tepa{
-width: 1500px;
-height: 58px;
-margin-bottom: 663px;
-margin-left: 380px;
+
+.tepa {
+  width: 1500px;
+  height: 58px;
+  margin-bottom: 663px;
+  margin-left: 380px;
 }
-.dadacard{
-width: 1301px;
-height: 484px;
-background-color: white;
-margin-right: 800px;
+
+.dadacard {
+  width: 1301px;
+  height: 484px;
+  background-color: white;
+  margin-right: 800px;
 }
+
 .asosiy_fon {
   width: 100%;
-  background-color:#F8F8F8;
+  background-color: #F8F8F8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,7 +156,7 @@ margin-right: 800px;
 }
 
 .ovqat_kard {
-  width: 23%; 
+  width: 23%;
   min-width: 200px;
   background-color: white;
   border: 1px solid #eaeaea;
@@ -241,94 +246,92 @@ margin-right: 800px;
 /* mrizo */
 
 .site {
-    width: auto;
-    max-width: 2000px;
-    height: auto; 
-    background-color: #F4F4F4;
-    border: 1px solid;
-    margin: 50px auto;
+  width: auto;
+  max-width: 2000px;
+  height: auto;
+  background-color: #F4F4F4;
+  border: 1px solid;
+  margin: 50px auto;
 }
 
-.orta
-{
-    width: 1920px;
-    height: 645px;
-    background-color: #F4F4F4;
-    border: 1px solid;
-    margin: 50px auto; 
+.orta {
+  width: 1920px;
+  height: 645px;
+  background-color: #F4F4F4;
+  border: 1px solid;
+  margin: 50px auto;
 }
 
-.ota
-{
-    width: 1920px;
-    height: 800px;
-    border: 2px solid;
+.ota {
+  width: 1920px;
+  height: 800px;
+  border: 2px solid;
 }
 
 h1 {
-    font-weight: 300;
-    font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .box {
-    width: 410px ;
-    height: 198px ;
+  width: 410px;
+  height: 198px;
 
-    border: 1px solid;
+  border: 1px solid;
 }
 
 
 
 .card {
-    width: 413px;
-    height: 584px;
-    border: 2px solid grey;
-    border-radius: 15px;
-    float: left; 
-    margin-left: 30px;
+  width: 413px;
+  height: 584px;
+  border: 2px solid grey;
+  border-radius: 15px;
+  float: left;
+  margin-left: 30px;
 }
 
 .card img {
-    width: 410px;
-    height: 352px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+  width: 410px;
+  height: 352px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 
 }
 
 .v1 {
-    width: 372px;
-    margin: 20px;
-    font-family: sans-serif;
-    font-size: 25px;
-    text-transform: capitalize;
+  width: 372px;
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-transform: capitalize;
 }
 
 .v2 {
-    width: 352px;
-    margin-left: 20px;
-    color: grey;
+  width: 352px;
+  margin-left: 20px;
+  color: grey;
 }
 
 .card1 {
-    width: 100%;
-    height: 55px;
-    background-color: #bb233a00;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  height: 55px;
+  background-color: #bb233a00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .v3 {
-    width: 86px;
-    margin: 20px;
-    float: left;
-    color: #BB2339;
+  width: 86px;
+  margin: 20px;
+  float: left;
+  color: #BB2339;
 }
 
 .v4 {
-    width: 79px;
-    margin: 20px;
-    color: grey;
-    font-size: 15px;
+  width: 79px;
+  margin: 20px;
+  color: grey;
+  font-size: 15px;
 }

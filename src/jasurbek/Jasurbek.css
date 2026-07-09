@@ -29,7 +29,7 @@
   height: 47px;
   margin-left: 40px;
 }
-
+/* 
 .navbar ul {
   list-style: none;
 }
@@ -38,7 +38,7 @@
   display: flex;
   align-items: center;
   gap: 40px;
-}
+} */
 
 .navbar ul li a {
   text-decoration: none;
@@ -69,6 +69,7 @@
 
 .li {
   color: gray;
+  margin-left: 00px;
 }
 
 .li span {

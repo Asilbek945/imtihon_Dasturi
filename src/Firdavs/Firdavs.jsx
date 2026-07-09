@@ -134,13 +134,6 @@ const Firdavs = () => {
                 </div>
             </div>
 
-
-
-            {/* foteer1 */}
-
-
-
-
             <div className="footer21">
                 <div className="a1">
                     <h2>Contact Us</h2>

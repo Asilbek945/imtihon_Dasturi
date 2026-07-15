@@ -1,98 +1,444 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.navbar7 {
+  width: 1880px;
+  height: 721px;
+  background-color: #BB2339;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.dada7 {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.matnlar7 {
+  flex: 1;
+  max-width: 500px;
+}
+
+.rasmuchun {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rasm7 {
+  width: 100%;
+  max-width: 600px;
+}
+
+.a {
+  font-size: 20px;
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+
+.b {
+  color: aliceblue;
+  font-size: 60px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+  color: black;
+}
+
+p {
+  color: aliceblue;
+}
+
+.header7 {
+  width: 1879px;
+  height: 721px;
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.c {
+  color: #BB2339;
+  font-size: 45px;
+  margin-right: 1200px;
+  margin-bottom: 500px;
+}
+
+.tepa {
+  width: 1500px;
+  height: 58px;
+  margin-bottom: 663px;
+  margin-left: 380px;
+}
+
+.dadacard {
+  width: 1301px;
+  height: 484px;
+  background-color: white;
+  margin-right: 800px;
+}
+
+.asosiy_fon {
+  width: 100%;
+  background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: sans-serif;
+}
+
+.menyu_qismi {
+  width: 90%;
+  max-width: 1200px;
+  margin-bottom: 30px;
+}
+
+.menyu_tepasi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.qizil_sarlavha {
+  color: #BB2339;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.pastgi_sarlavha {
+  margin-bottom: 20px;
+}
+
+.strelkalar {
+  display: flex;
+  gap: 15px;
+}
+
+.strelka_tugma {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border: 1px solid #eaeaea;
+  color: #BB2339;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.kardlar_qatori {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ovqat_kard {
+  width: 23%;
+  min-width: 200px;
+  background-color: white;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.kard_rasm {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.kard_nomi {
+  font-size: 14px;
+  
+  margin-bottom: 10px;
+}
+
+.yulduzlar {
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+.kard_narxi {
+  color: #BB2339;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.chiziq_dada {
+  width: 90%;
+  max-width: 1200px;
+  border-top: 1px solid #eaeaea;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.qaychi_icon {
+  position: absolute;
+  top: -20px;
+  background-color: white;
+  color: #BB2339;
+  border: 1px dashed #eaeaea;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+.tugmalar_qatori {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.kategoriya_tugma {
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #BB2339;
+  color: #BB2339;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.faol_tugma {
+  background-color: #BB2339;
+  color: white;
+}
+
+
+
+
+
+
+
+
+/* mrizo */
 
 .site {
-    width: auto;
-    max-width: 2000px;
-    height: auto; 
-    background-color: #F4F4F4;
-    border: 1px solid;
-    margin: 50px auto;
+  width: 1920px;
+  height: auto;
+  background-color: #F4F4F4;
+  margin: 50px auto;
 }
 
-.orta
+.orta11 {
+  width: 1920px;
+  height: 645px;
+  background-color: #F4F4F4;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+.orta12 {
+  width: 1920px;
+  height: 100px;
+  margin-top: 130px;
+  margin-bottom: 70px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+float: left;
+  border: none;
+
+}
+
+.t1{
+width: 120px;
+height: 30px;
+font-size: 23px;
+}
+.t2
 {
-    width: 1920px;
-    height: 645px;
-    background-color: #F4F4F4;
-    border: 1px solid;
-    margin: 50px auto; 
+width: 418;
+height: 62;
+
+font-size: 48px;
+}
+.ota {
+  width: 1920px;
+  height: 800px;
+  border: 2px solid;
 }
 
-.ota
-{
-    width: 1920px;
-    height: 800px;
-    border: 2px solid;
+
+.ot1 {
+  margin-right: 150px ;
+  margin-top: 35px; 
+  display: flex;
+  justify-content: center;
+  border: none;
+
+  color: #333333;
 }
 
-h1 {
+  h1 {
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  .box99 {
+  width: 1900px;
+  height: 198px;
+  color: #333333;
+  float: left;
+  display: flex;
+  justify-content: center;
+  border: none;
+  flex-wrap: wrap;
+
 }
-
-.box {
-    width: 410px ;
-    height: 198px ;
-
-    border: 1px solid;
+p{
+color: #333333;}
+.boxtagi
+{
+   width: 1900px;
+  height: 198px; 
+  display: flex;
+  justify-content: center;
+  border: none;
+  align-items: center;
 }
+.ew1
+{
+  width: 340px;
+  height: 66px;
+  color: #333333;
 
-
-
-.card {
-    width: 413px;
+}
+.box12 {
+  width: 410px;
+  height: 198px;
+  height: 198px;
+  margin-left: 20px;
+  margin-right:20px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  padding-top: 20px;
+  padding: 20px;
+  color: #333333;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  
+}
+p{
+  
+}
+.box12 h1 {
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  margin-left: 0;
+  line-height: 26px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+/* */
+.asos1 {
+    width: 1400px;
     height: 584px;
-    border: 2px solid grey;
-    border-radius: 15px;
-    float: left; 
-    margin-left: 30px;
+    /* background-color: yellow; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 240px;
+
+}
+.kattarasm{
+  width: 1920px;
+  height: 763px;
+
+}
+.kattarasm1{
+  width: 1920px;
+  height: 763px;
+  
+}
+.card {
+  width: 413px;
+  height: 584px;
+  border: 2px solid grey;
+  border-radius: 15px;
+  float: left;
+  margin-left: 30px;
 }
 
 .card img {
-    width: 410px;
-    height: 352px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+  width: 410px;
+  height: 352px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 
 }
 
 .v1 {
-    width: 372px;
-    margin: 20px;
-    font-family: sans-serif;
-    font-size: 25px;
-    text-transform: capitalize;
+  width: 372px;
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-transform: capitalize;
 }
 
 .v2 {
-    width: 352px;
-    margin-left: 20px;
-    color: grey;
+  width: 352px;
+  margin-left: 20px;
+  color: grey;
 }
 
 .card1 {
-    width: 100%;
-    height: 55px;
-    background-color: #bb233a00;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  height: 55px;
+  background-color: #bb233a00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .v3 {
-    width: 86px;
-    margin: 20px;
-    float: left;
-    color: #BB2339;
+  width: 86px;
+  margin: 20px;
+  float: left;
+  color: #BB2339;
 }
 
 .v4 {
-    width: 79px;
-    margin: 20px;
-    color: grey;
-    font-size: 15px;
+  width: 79px;
+  margin: 20px;
+  color: grey;
+  font-size: 15px;
 }

@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
 /* tepa qismi */
 /* tepa qismi */
 /* tepa qismi */
@@ -25,11 +32,11 @@
     height: auto;
     padding: 20px;
     margin: 50px auto;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
 }
 
@@ -72,11 +79,12 @@
 }
 
 .navbar button:hover {
-    background-color:#BB2339;
+    background-color: #BB2339;
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.344);
     color: #fff;
     transform: translateY(-3px);
 }
+
 .navbar a:hover {
     color: #fff;
     transform: translateY(-3px);
@@ -112,8 +120,131 @@
 
 /* orta qismi */
 /* orta qismi */
+.chap11 {
+    width: 428px;
+    height: 844px;
+    float: left;
+    background-color: #BB2339;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 70px;
+}
 
-.orta{
+.chap11 ul li {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    font-weight: 800;
+}
+
+.chap11 ul li button {
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    outline: 1px solid #BB2339;
+}
+
+.chap11 ul li button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #BB2339;
+    outline: 1px solid white;
+}
+
+.chap11 ul li .fast {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    outline: 1px solid #BB2339;
+}
+
+.chap11 h1{
+    color: white;
+    font-size: 40px;
+}
+
+.boxlar{
+    float: right;
+    width: 900px;
+    height: 1600px;
+    /* margin-left: 200px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: start; */
+    align-items: center;
+    gap: 35px;
+    /* border: 2px solid black; */
+    /* margin-top: 10px; */
+    margin-right: 450px;
+}
+
+.box1{
+    width: 400px;
+    height: 468px;
+    float: left;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* margin-top: 20px; */
+}
+
+.box1 img{
+    width: 340px;
+    height: 240px;
+    /* object-fit: cover; */
+}
+.box1 h1{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box1 p{
+    color: red;
+    font-size: 28;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.h {
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.h .h111{
+    color: #BB2339;
+}
+
+.h h1{
+    color: black;
+    font-size: 14px;
+
+}
+
+.orta {
     width: 100%;
     height: auto;
     padding: 10px;
@@ -124,59 +255,36 @@
     align-items: center;
 }
 
-.orta .orta_t{
+.orta .orta_t {
     width: 100%;
     height: 100px;
     padding: 50px;
     border: 4px solid black;
-    
+    /* margin-top: 100px; */
+
 }
 
 /* pas qismi ortani */
 /* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
-/* pas qismi ortani */
 
-/* pas qismi ortani */
-/* pas qismi ortani */
-
-.orta .orta_p{
+.orta .orta_p {
     width: 100%;
     height: auto;
 
 }
 
-.orta_p .pass{
+.orta_p .pass {
     width: 100%;
-    height:447px;
+    height: 447px;
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.pass .chap{
+.pass .chap {
     width: 491px;
     height: 265px;
     /* background-color: BLUE; */
@@ -184,35 +292,35 @@
 }
 
 
-.pass .ong
-{
+.pass .ong {
     width: 900px;
     height: 295px;
     /* background-color: red; */
 
 }
 
-.ong img{
+.ong img {
     width: 210px;
-    height:100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.ppp{
+.ppp {
     font-size: 23px;
     text-transform: capitalize;
 }
 
-.h4{
+.h4 {
     font-size: 48px;
 
 }
 
-.pp1{
+.pp1 {
     font-size: 16px;
 }
-.bt1{
+
+.bt1 {
     width: 125px;
     height: 48px;
     background-color: white;
@@ -224,4 +332,154 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer11 {
+    width: 1330px;
+    height: 300px;
+    background: #BB2339;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+
+}
+
+.shriftlar {
+    margin-left: 160px;
+    width: 1000px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shriftlar h2 {
+    color: white;
+}
+
+.shriftlar h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.shriftlar p {
+    color: white;
+}
+
+.inpbtn {
+    width: 1000px;
+    height: 150px;
+    margin-left: 170px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.inpbtn input {
+    width: 450px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background: #BB2339;
+    color: white;
+    padding-left: 30px;
+}
+
+.inpbtn button {
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid white;
+    background: #BB2339;
+    color: gray;
+    padding-left: 30px;
+    color: white;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+
+.footer21 {
+    width: 1920px;
+    height: 500px;
+    background: #BB2339;
+    margin-top: -160px;
+    z-index: -1;
+    padding-top: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+
+.a1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: #000; */
+}
+
+.a2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 400px;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.a2 .i a {
+    color: white;
+}
+
+.a3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 400px;
+    height: 150px;
+    font-weight: 200;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
